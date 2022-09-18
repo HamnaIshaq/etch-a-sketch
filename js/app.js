@@ -9,6 +9,8 @@ const gridCellSizeInputValue = document.querySelector('#grid-cell-size');
 
 const resetGrid = document.querySelector('.btn-reset');
 
+const eraseGridCell = document.querySelector('.btn-eraser');
+
 // drawing grid width
 const drawingContainerWidth = 450;
 
@@ -85,4 +87,8 @@ gridCellSizeInputValue.addEventListener('change', () => {
 // reset drawing grid
 resetGrid.addEventListener('click', () => {
   gridCell();
+})
+
+eraseGridCell.addEventListener('click', () => {
+  drawingColor.value = '#ffffff';
 })
