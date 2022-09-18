@@ -7,6 +7,8 @@ const btnMinusSquarePerSide = document.querySelector('.btn-minus');
 const btnPlusSquarePerSide = document.querySelector('.btn-plus');
 const gridCellSizeInputValue = document.querySelector('#grid-cell-size');
 
+const resetGrid = document.querySelector('.btn-reset');
+
 // drawing grid width
 const drawingContainerWidth = 700;
 
@@ -68,4 +70,9 @@ gridCellSizeInputValue.addEventListener('change', () => {
   else {
     gridCell();
   }
+})
+
+// reset drawing grid
+resetGrid.addEventListener('click', () => {
+  gridCell();
 })
