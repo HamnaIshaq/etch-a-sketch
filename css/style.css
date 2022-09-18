@@ -75,6 +75,12 @@ body {
 
 /* square per side */
 
+.grid-container {
+  margin: 0 auto;
+  outline: 20px solid #2C3333;
+  margin-top: 1.5em;
+}
+
 .drawing-container {
   width: 450px;
   height: 450px;
