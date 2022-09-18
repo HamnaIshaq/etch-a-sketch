@@ -83,3 +83,14 @@ body {
 .drawing-grid {
   border: 1px solid #2C3333;
 }
+
+/* reset drawing grid */
+.btn-reset {
+  font-size: 16px;
+  background-color: #2C3333;
+  width: 100%;
+  text-transform: uppercase;
+  margin-top: 1em;
+  max-width: 145px;
+}
+/* reset drawing grid */
