@@ -18,6 +18,10 @@ body {
   display: flex;
 }
 
+.drawing-wrapper {
+  margin-top: 2em;
+}
+
 .color-input {
   display: block;
   margin-top: 1em;
