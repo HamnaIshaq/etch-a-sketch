@@ -1,0 +1,35 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.color-input {
+  margin-left: 2em;
+  font-size: 16px;
+}
+
+.drawing-container {
+  width: 700px;
+  height: 700px;
+  margin: 0 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.drawing-grid {
+  border: 1px solid lightblue; 
+}
