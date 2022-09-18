@@ -19,8 +19,59 @@ body {
 
 .color-input {
   margin-left: 2em;
-  font-size: 16px;
 }
+
+.input-label {
+  font-size: 18px;
+}
+
+/* square per side */
+.grid-cell-size-container {
+  margin-top: 2.5em;
+}
+
+.input-container {
+  display: block;
+  margin-top: .5em;
+}
+
+.btn {
+  font-size: 19px;
+  height: 30px;
+  cursor: pointer;
+  padding: 0 .5em;
+  color: #E7F6F2;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.6;
+}
+
+.btn-minus,
+.btn-plus {
+  position: relative;
+  top: 1px;
+  background-color: #2C3333;
+  border: 1px solid black; 
+}
+
+.btn-minus {
+  left: 6px;
+}
+
+.btn-plus {
+  right: 6px;
+}
+
+.input-cell-size {
+  font-size: 16px;
+  width: 60px;
+  height: 30px;
+  padding-left: .25em;
+}
+
+/* square per side */
 
 .drawing-container {
   width: 700px;
