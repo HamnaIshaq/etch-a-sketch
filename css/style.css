@@ -42,7 +42,9 @@ body {
 }
 
 .input-container {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: .5em;
 }
 
@@ -62,8 +64,6 @@ body {
 
 .btn-minus,
 .btn-plus {
-  position: relative;
-  top: 1.5px;
   background-color: #2C3333; 
 }
 
@@ -72,9 +72,7 @@ body {
   width: 90px;
   height: 30px;
   padding: 0 6px;
-
   border-radius: 0;
-  margin: -5px;
   border: 1px solid #2C3333;
 }
 
