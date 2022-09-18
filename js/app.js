@@ -11,6 +11,8 @@ const resetGrid = document.querySelector('.btn-reset');
 
 const eraseGridCell = document.querySelector('.btn-eraser');
 
+const drawingGridCellsBoundary = document.querySelector('.btn-toggle-grid');
+
 // drawing grid width
 const drawingContainerWidth = 450;
 
@@ -91,4 +93,14 @@ resetGrid.addEventListener('click', () => {
 
 eraseGridCell.addEventListener('click', () => {
   drawingColor.value = '#ffffff';
+})
+
+//toggle grid
+drawingGridCellsBoundary.addEventListener('click', () => {
+  const gridCells = document.querySelectorAll('.drawing-grid')
+
+  gridCells.forEach(cell => {
+    cell.classList.toggle('hide-drawing-grid')
+  })
+  
 })
