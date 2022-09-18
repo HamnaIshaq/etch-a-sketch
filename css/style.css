@@ -18,7 +18,10 @@ body {
 }
 
 .color-input {
-  margin-left: 2em;
+  display: block;
+  margin-top: 1em;
+  width: 100%;
+  max-width: 145px;
 }
 
 .input-label {
@@ -27,7 +30,7 @@ body {
 
 /* square per side */
 .grid-cell-size-container {
-  margin-top: 2.5em;
+  margin-top: 2em;
 }
 
 .input-container {
@@ -41,6 +44,7 @@ body {
   cursor: pointer;
   padding: 0 .5em;
   color: #E7F6F2;
+  border: none;
 }
 
 .btn:hover,
@@ -51,24 +55,19 @@ body {
 .btn-minus,
 .btn-plus {
   position: relative;
-  top: 1px;
-  background-color: #2C3333;
-  border: 1px solid black; 
-}
-
-.btn-minus {
-  left: 6px;
-}
-
-.btn-plus {
-  right: 6px;
+  top: 1.5px;
+  background-color: #2C3333; 
 }
 
 .input-cell-size {
   font-size: 16px;
-  width: 60px;
+  width: 90px;
   height: 30px;
-  padding-left: .25em;
+  padding: 0 6px;
+
+  border-radius: 0;
+  margin: -5px;
+  border: 1px solid #2C3333;
 }
 
 /* square per side */
@@ -82,5 +81,5 @@ body {
 }
 
 .drawing-grid {
-  border: 1px solid lightblue; 
+  border: 1px solid #2C3333;
 }
