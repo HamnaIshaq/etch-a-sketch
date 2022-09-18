@@ -63,6 +63,7 @@ body {
 
 .btn-minus,
 .btn-plus {
+  height: 30px;
   background-color: #2C3333; 
 }
 
