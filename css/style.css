@@ -8,6 +8,16 @@ body {
   background-color: #f3f9fb;
 }
 
+.title-container {
+  margin-top: 2em;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  font-size: 3rem;
+}
+
 .container {
   width: 90%;
   max-width: 900px;
