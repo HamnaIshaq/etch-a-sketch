@@ -10,12 +10,11 @@ const gridCellSizeInputValue = document.querySelector('#grid-cell-size');
 const resetGrid = document.querySelector('.btn-reset');
 
 // drawing grid width
-const drawingContainerWidth = 700;
+const drawingContainerWidth = 450;
 
 // draw 16x16 grid 
 const gridCell = () => {
   const gridSize = parseInt(gridCellSizeInputValue.value);
-  console.log(gridSize)
   // single cell size
   const cellSize = drawingContainerWidth / gridSize;
 
@@ -29,6 +28,7 @@ const gridCell = () => {
       gridCellContainer.style.width = `${cellSize}px`;
       gridCellContainer.style.height = `${cellSize}px`;
 
+      
       drawingContainer.appendChild(gridCellContainer);
     }
   }
@@ -36,10 +36,20 @@ const gridCell = () => {
 
 gridCell();
 
-// draw on grid
-drawingContainer.addEventListener('mouseover', (e) => {
-  e.target.style.backgroundColor = drawingColor.value;
-})
+let dragAndDraw = true;
+
+// draw on board by dragging mouse
+drawingContainer.addEventListener('mousedown', () => {
+  dragAndDraw = false;
+});
+drawingContainer.addEventListener('mousemove', (e) => {
+  if(dragAndDraw == false) {
+    e.target.style.backgroundColor = drawingColor.value;
+  }
+});
+drawingContainer.addEventListener('mouseup', () => {
+  dragAndDraw = true;
+});
 
 // reduce current sq. per side from grid by 1 
 btnMinusSquarePerSide.addEventListener('click', () => {
