@@ -19,9 +19,21 @@
     <div class="drawing-wrapper row">
       <div class="drawing-settings">
         <div class="color-picker-container">
-          <label for="color_picker">Color:</label>
+          <label for="color_picker" class="input-label">Color:</label>
           <input type="color" id="color_picker" class="color-input">
         </div>
+
+        <!-- Set drawing board squares per side -->
+        <div class="grid-cell-size-container">
+          <label for="grid-cell-size" class="input-label">Squares per side:</label>
+          <div class="input-container">
+            <button type="button" class="btn btn-minus">-</button>
+            <input type="number" id="grid-cell-size" class="input-cell-size" max="100" min="1" value="16">
+            <button type="button" class="btn btn-plus">+</button>
+          </div>
+        </div>
+        <!-- Set drawing board squares per side -->
+
       </div>
       
       <div class="drawing-container"></div>
