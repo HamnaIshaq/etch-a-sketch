@@ -27,7 +27,8 @@ const gridCell = () => {
   for(let cellRow = 0; cellRow < gridSize; cellRow++) {
     for(let cellCol = 0; cellCol < gridSize; cellCol++) {
       gridCellContainer = document.createElement('div');
-      gridCellContainer.classList.add('drawing-grid')
+      gridCellContainer.classList.add('drawing-grid');
+      gridCellContainer.classList.add('hide-drawing-grid');
 
       gridCellContainer.style.width = `${cellSize}px`;
       gridCellContainer.style.height = `${cellSize}px`;
