@@ -22,7 +22,7 @@ This application should have the following functionalities:
 - Reset the whole drawing board
 
 ## Screenshot
-![](./assets/solution-etch-a-sketch)
+![](./assets/solution-etch-a-sketch.JPG)
 
 ### Links
 - Live Site URL: [Live Link](https://hamnaishaq.github.io/etch-a-sketch/)
