@@ -20,9 +20,11 @@ This application should have the following functionalities:
 - See drawing grid guidelines if desired
 - Erase drawing using pen
 - Reset the whole drawing board
+- Draw using random colored pen (optional)
 
 ## Screenshot
 ![](./assets/solution-etch-a-sketch.JPG)
+![](./assets/draw-etch-a-sketch.JPG)
 
 ### Links
 - Live Site URL: [Live Link](https://hamnaishaq.github.io/etch-a-sketch/)
