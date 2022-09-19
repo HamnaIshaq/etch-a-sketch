@@ -5,6 +5,7 @@ This is a solution to [Odin Project - Etch-a-sketch](https://www.theodinproject.
 ## Table of contents
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [Technologies Used](#technologies-used)
 - [Attribution](#attribution)
@@ -19,6 +20,9 @@ This application should have the following functionalities:
 - See drawing grid guidelines if desired
 - Erase drawing using pen
 - Reset the whole drawing board
+
+## Screenshot
+![](./assets/solution-etch-a-sketch)
 
 ### Links
 - Live Site URL: [Live Link](https://hamnaishaq.github.io/etch-a-sketch/)
