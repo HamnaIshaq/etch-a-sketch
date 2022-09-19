@@ -3,12 +3,25 @@
 This is a solution to [Odin Project - Etch-a-sketch](https://www.theodinproject.com/lessons/foundations-etch-a-sketch)
 
 ## Table of contents
-- [Links](#links)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
 - [Technologies Used](#technologies-used)
 - [Attribution](#attribution)
 
-## Links
-- Live Site URL [Live Link](https://hamnaishaq.github.io/etch-a-sketch/)
+## Overview
+This project is a browser version of something between a sketchpad and an Etch-a-sketch in which user can create pixel art.
+
+### The challenge
+This application should have the following functionalities:
+- Choose color of drawing pen
+- Choose drawing board grid dimensions (e.g. 16x16)
+- See drawing grid guidelines if desired
+- Erase drawing using pen
+- Reset the whole drawing board
+
+### Links
+- Live Site URL: [Live Link](https://hamnaishaq.github.io/etch-a-sketch/)
 
 ## Technologies used
 - HTML
